@@ -21,4 +21,8 @@ router.get('/project/:id', async (req, res) => {
     }
 })
 
+router.get('/login', async (req, res) => {
+    res.render('login')
+})
+
 module.exports = router
