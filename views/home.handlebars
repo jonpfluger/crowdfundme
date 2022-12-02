@@ -1,1 +1,11 @@
-<h1>Hello World</h1>
+<h1>Our Projects</h1>
+
+<div class="list-group">
+
+{{#each projects}}
+    <a href="/project/{{id}}" class="list-group-item list-group-item-action">
+        {{name}}
+    </a>
+{{/each}}
+
+</div>
